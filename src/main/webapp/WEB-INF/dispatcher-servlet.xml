@@ -10,8 +10,4 @@
         http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
     <mvc:annotation-driven></mvc:annotation-driven>
     <context:component-scan base-package="cn"></context:component-scan>
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/"></property>
-        <property name="suffix" value=".jsp"></property>
-    </bean>
 </beans>
