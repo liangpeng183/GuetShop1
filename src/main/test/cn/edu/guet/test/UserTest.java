@@ -25,8 +25,8 @@ public class UserTest {
         UserMapper mapper=session.getMapper(UserMapper.class);
         Users user=new Users();
         user.setUsersId(UUID.randomUUID().toString().replace("-",""));
-        user.setUsername("liangzhipeng");
-        user.setPassword("lzp1234");
+        user.setUsername("lp");
+        user.setPassword("lp1234");
         mapper.saveUser(user);
         session.commit();
     }
